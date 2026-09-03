@@ -1,3 +1,4 @@
+import ChatBot from './components/ChatBot';
 import { useState, useRef, useEffect } from 'react';
 
 import { MessageCircle, X, Send } from 'lucide-react';
@@ -65,7 +66,7 @@ export default function ChatBot() {
   }
 
   return (
-
+ <ChatBot />
     <>
 
       <button
